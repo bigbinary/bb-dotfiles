@@ -1,0 +1,19 @@
+alias ls='ls -G'
+alias ll='ls -al'
+
+# List only directories
+alias lsd='ls -l | grep "^d"'
+
+alias h='history'
+
+alias e='exit'
+alias c="code ."
+
+alias ..='cd ..' # move up 1 directory
+alias ...='cd ../..' #  move up 2 directories
+alias ....='cd ../../..' #  move up 3 directories
+alias .....='cd ../../../..' #  move up 4 directories
+alias ......='cd ../../../../..' #  move up 5 directories
+
+alias gita='git add -p'
+alias gits='git status'
