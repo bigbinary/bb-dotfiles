@@ -2,7 +2,7 @@
 
 ```
 mkdir ~/code
-cd code
+cd ~/code
 git clone git@github.com:bigbinary/bb-dotfiles.git
 ```
 
